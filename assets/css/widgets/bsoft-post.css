@@ -1,0 +1,75 @@
+.bsoft-post-image-card .bsoft-entry-header {
+	position: relative;
+}
+.bsoft-post-image-card .bsoft-entry-header .bsoft-entry-thumb {
+	position: relative;
+	padding: 20px;
+	overflow: hidden;
+	display: block;
+	border-radius: 10px;
+}
+.bsoft-post-image-card .bsoft-entry-header .bsoft-entry-thumb>img {
+	-webkit-transition: all .4s ease;
+	transition: all .4s ease;
+	width: 100%;
+}
+.bsoft-post-image-card .bsoft-post-body {
+	padding: 20px 40px 40px;
+}
+.bsoft-post-body {
+	position: relative;
+}
+.bsoft-post-image-card .entry-title {
+	font-size: 18px;
+	margin-bottom: 28px;
+}
+.bsoft-post-image-card .entry-title a, .bsoft-post-image-card .bsoft-post-body>p {
+	color: #fff;
+}
+.bsoft-btn {
+	border-radius: 5px;
+	font-size: 15px;
+	padding: 15px 30px;
+	display: inline-block;
+	color: #fff;
+	position: relative;
+	display: inline-block;
+	line-height: 1;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	white-space: nowrap;
+	vertical-align: middle;
+	text-align: center;
+}
+.bsoft-btn::before {
+	position: absolute;
+	content: "";
+	border-radius: inherit;
+	-webkit-transition: all .4s ease;
+	transition: all .4s ease;
+	z-index: -1;
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 100%;
+	background-size: 102% 102%;
+	opacity: 0;
+}
+.bsoft-post-card {
+	transition: all .4s ease;
+	padding: 60px 40px;
+	background: #123075;
+}
+.bsoft-post-image-card {
+	transition: all .4s ease;
+}
+.bsoft-blog-block-post {
+	padding: 50px;
+	transition: all .4s ease;
+}
+.bsoft-post-image-card:hover .bsoft-entry-thumb img {
+	-webkit-transform: scale(1.05) rotate(2deg);
+	transform: scale(1.05) rotate(2deg);
+}

@@ -1,0 +1,10 @@
+body .elementor-element .icon .icon-stm:after {
+  content: 'STM';
+  position: absolute;
+  right: 10px;
+  top: 7px;
+  opacity: 0.6;
+  font-family: sans-serif;
+  font-style: italic;
+  font-weight: 700;
+  font-size: 11px; }

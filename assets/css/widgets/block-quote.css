@@ -1,0 +1,25 @@
+/* Theme colors */
+/* Theme fonts */
+body .elementor-widget-blockquote .elementor-widget-container {
+  border-left: 4px solid var(--primary_color);
+  background-color: #eff5ff;
+  padding: 38px 38px 38px 105px; }
+  body .elementor-widget-blockquote .elementor-widget-container .starter-position-relative {
+	position: relative; }
+  body .elementor-widget-blockquote .elementor-widget-container .starter-position-absolute {
+	position: absolute; }
+  body .elementor-widget-blockquote .elementor-widget-container .starter-block-quote blockquote {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	position: relative;
+	background: transparent;
+	line-height: 26px;
+	font-size: 20px; }
+	body .elementor-widget-blockquote .elementor-widget-container .starter-block-quote blockquote:before {
+	  display: none; }
+	body .elementor-widget-blockquote .elementor-widget-container .starter-block-quote blockquote i {
+	  margin: 0;
+	  font-size: 33px; }
+	body .elementor-widget-blockquote .elementor-widget-container .starter-block-quote blockquote .starter-block-quote-author {
+	  display: block; }

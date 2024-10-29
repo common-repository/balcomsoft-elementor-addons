@@ -1,0 +1,44 @@
+.starter-bsoft_carousel .starter-bsoft_carousel__item::before {
+	content: "";
+	z-index: 1;
+	height: 100%;
+	width: 100%;
+	top: 0;
+	left: 0;
+	position: absolute;
+}
+
+.starter-bsoft_carousel .starter-bsoft_carousel__item_main {
+	position: relative;
+}
+
+.starter-bsoft_carousel .starter-bsoft_carousel__item .starter-bsoft_carousel__button a {
+	width: fit-content;
+	display: block;
+}
+
+.starter-bsoft_carousel .starter-bsoft_carousel__button a {
+	text-align: center;
+	position: relative;
+	z-index: 1;
+}
+
+.starter-bsoft_carousel .starter-bsoft_carousel__item a {
+	text-decoration: none;
+}
+
+body a:hover {
+	text-decoration: none;
+}
+
+.starter-bsoft_carousel .starter-bsoft-background-position {
+	position: absolute;
+	top: 0;
+	display: flex;
+	height: 100%;
+	z-index: 2;
+}
+
+.starter-bsoft_carousel .starter-bsoft_carousel__image img {
+	display: block;
+}
